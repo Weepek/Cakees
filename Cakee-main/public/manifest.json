@@ -1,0 +1,25 @@
+{
+  "short_name": "Cakes",
+  "name": "Cakes Web App",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "550x550",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "cake1",
+      "type": "image/png",
+      "sizes": "1024x1024"
+    },
+    {
+      "src": "cake1",
+      "type": "image/png",
+      "sizes": "1024x1024"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

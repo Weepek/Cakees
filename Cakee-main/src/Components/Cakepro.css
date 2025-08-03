@@ -1,0 +1,69 @@
+/* Container styling to center and arrange cards */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Individual card styling */
+  .card {
+    /* background-color: #fff; */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Hover effect */
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  .card-details {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  .loader {
+    border: 4px solid #f3f3f3; /* Light grey */
+    border-top: 4px solid #db2777; /* Pink to match your theme */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+  }
+
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }.Toastify__toast--success {
+  background-color: #f472b6; /* Pink-600 from your app */
+  color: white;
+}
+.Toastify__toast--error {
+  background-color: #dc2626; /* Red-600 for errors */
+  color: white;
+}
+
+.Toastify__progress-bar--error {
+  background-color: #f87171; /* Lighter red for progress bar */
+}
+
+.Toastify__close-button {
+  color: #ffffff; /* White close button */
+  opacity: 0.8;
+}
+
+.Toastify__close-button:hover {
+  opacity: 1;
+}

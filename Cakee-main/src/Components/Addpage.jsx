@@ -201,7 +201,7 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 function Addpage() {
-  const url = "http://localhost:5000";
+  const url = "https://cakeesbackend.onrender.com";
   const [formData, setFormData] = useState({
     mainImage: null,
     addImage1: null,

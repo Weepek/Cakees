@@ -202,7 +202,7 @@ function ProductDetails() {
 
     const fetchProduct = async () => {
       try {
-        const response = await axios.get(`http://localhost:5000/api/dessert/${id}`, {
+        const response = await axios.get(`https://cakeesbackend.onrender.com/api/dessert/${id}`, {
           signal: controller.signal,
         });
 

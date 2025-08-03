@@ -34,7 +34,7 @@ function Cakepro() {
       try {
         console.log('Fetching menu items...');
 
-        const response = await axios.get('http://localhost:5000/api/dessert/list');
+        const response = await axios.get('https://cakeesbackend.onrender.com/api/dessert/list');
         console.log('Response data:', response.data);
 
         if (Array.isArray(response.data.data)) {
